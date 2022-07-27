@@ -1,0 +1,30 @@
+.block {
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid;
+  border-width: 1px;
+  border-color: #2e382e;
+}
+
+.blockGroup {
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  background: linear-gradient(rgb(137, 201, 217), rgb(88, 132, 140));
+}
+
+.blockGroup1{
+  display: flex;
+  flex-direction: column;
+}
+
+.blockGroup2 {
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(rgb(177, 214, 224), rgb(215, 228, 230));
+}
